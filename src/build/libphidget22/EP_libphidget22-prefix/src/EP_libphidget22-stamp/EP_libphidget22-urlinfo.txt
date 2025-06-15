@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/pioneer1/Documents/Rover/src/build/libphidget22/EP_libphidget22-prefix/src/EP_libphidget22-stamp/download-EP_libphidget22.cmake;COMMAND;/usr/bin/cmake;-P;/home/pioneer1/Documents/Rover/src/build/libphidget22/EP_libphidget22-prefix/src/EP_libphidget22-stamp/verify-EP_libphidget22.cmake;COMMAND;/usr/bin/cmake;-P;/home/pioneer1/Documents/Rover/src/build/libphidget22/EP_libphidget22-prefix/src/EP_libphidget22-stamp/extract-EP_libphidget22.cmake
+source_dir=/home/pioneer1/Documents/Rover/src/build/libphidget22/libphidget22-src
+work_dir=/home/pioneer1/Documents/Rover/src/build/libphidget22
+url(s)=https://www.phidgets.com/downloads/phidget22/libraries/linux/libphidget22/libphidget22-1.19.20240304.tar.gz
+hash=MD5=9b059eaef8cb8ce70b8abd7e4d309d1d
+no_extract=
+

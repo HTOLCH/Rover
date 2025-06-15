@@ -1,0 +1,491 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7be803284920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7be8033fe510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7be8033fe510>>, mixin_verb=('build',))
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.086s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pioneer1/Documents/Rover'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(phidget) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'phidget' with type 'ros.ament_python' and name 'phidget'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'ros'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['cmake', 'python']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'cmake'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'python'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extensions ['python_setup_py']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers) by extension 'python_setup_py'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/libphidget22) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/libphidget22' with type 'ros.catkin' and name 'libphidget22'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_accelerometer) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_accelerometer' with type 'ros.catkin' and name 'phidgets_accelerometer'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_inputs) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_analog_inputs' with type 'ros.catkin' and name 'phidgets_analog_inputs'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_analog_outputs) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_analog_outputs' with type 'ros.catkin' and name 'phidgets_analog_outputs'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_api) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_api' with type 'ros.catkin' and name 'phidgets_api'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_current_inputs) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_current_inputs' with type 'ros.catkin' and name 'phidgets_current_inputs'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_inputs) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_digital_inputs' with type 'ros.catkin' and name 'phidgets_digital_inputs'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_digital_outputs) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_digital_outputs' with type 'ros.catkin' and name 'phidgets_digital_outputs'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_drivers) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_drivers' with type 'ros.catkin' and name 'phidgets_drivers'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_gyroscope) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_gyroscope' with type 'ros.catkin' and name 'phidgets_gyroscope'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_high_speed_encoder) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_high_speed_encoder' with type 'ros.catkin' and name 'phidgets_high_speed_encoder'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_humidity) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_humidity' with type 'ros.catkin' and name 'phidgets_humidity'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_ik) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_ik' with type 'ros.catkin' and name 'phidgets_ik'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_magnetometer) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_magnetometer' with type 'ros.catkin' and name 'phidgets_magnetometer'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_motors) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_motors' with type 'ros.catkin' and name 'phidgets_motors'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_msgs) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_msgs' with type 'ros.catkin' and name 'phidgets_msgs'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_spatial) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_spatial' with type 'ros.catkin' and name 'phidgets_spatial'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(phidgets_drivers/phidgets_temperature) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'phidgets_drivers/phidgets_temperature' with type 'ros.catkin' and name 'phidgets_temperature'
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.134s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 208 installed packages in /opt/ros/jazzy
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'libphidget22' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'libphidget22' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/libphidget22', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/libphidget22', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22', 'symlink_install': False, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidget' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'phidget' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidget', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidget', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidget', 'symlink_install': False, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_msgs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_api', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_api', 'symlink_install': False, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'phidgets_accelerometer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_accelerometer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_accelerometer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_accelerometer', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_accelerometer', 'symlink_install': False, 'test_result_base': None}
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_inputs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_analog_inputs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_analog_inputs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_analog_inputs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_analog_inputs', 'symlink_install': False, 'test_result_base': None}
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_analog_outputs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_analog_outputs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_analog_outputs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_analog_outputs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_analog_outputs', 'symlink_install': False, 'test_result_base': None}
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_current_inputs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_current_inputs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_current_inputs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_current_inputs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_current_inputs', 'symlink_install': False, 'test_result_base': None}
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_inputs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_digital_inputs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_digital_inputs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_digital_inputs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_digital_inputs', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_digital_outputs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_digital_outputs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_digital_outputs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_digital_outputs', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_digital_outputs', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_gyroscope' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_gyroscope' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_gyroscope', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_gyroscope', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_high_speed_encoder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_high_speed_encoder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_high_speed_encoder', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_high_speed_encoder', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'phidgets_humidity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_humidity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_humidity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_humidity', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_humidity', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_magnetometer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_magnetometer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_magnetometer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_magnetometer', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_magnetometer', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_motors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_motors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_motors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_motors', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_motors', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_spatial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_spatial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_spatial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_spatial', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_spatial', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_temperature' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_temperature' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_temperature', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_temperature', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_temperature', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_ik', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_ik', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'phidgets_drivers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'phidgets_drivers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pioneer1/Documents/Rover/build/phidgets_drivers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pioneer1/Documents/Rover/install/phidgets_drivers', 'merge_install': False, 'path': '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_drivers', 'symlink_install': False, 'test_result_base': None}
+[0.157s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.158s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22' with build type 'catkin'
+[0.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22'
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.161s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs' with build type 'catkin'
+[0.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs'
+[0.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pioneer1/Documents/Rover/phidget' with build type 'ament_python'
+[0.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('phidget', 'ament_prefix_path')
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pioneer1/Documents/Rover/install/phidget/share/phidget/hook/ament_prefix_path.ps1'
+[0.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pioneer1/Documents/Rover/install/phidget/share/phidget/hook/ament_prefix_path.dsv'
+[0.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pioneer1/Documents/Rover/install/phidget/share/phidget/hook/ament_prefix_path.sh'
+[0.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pioneer1/Documents/Rover/build/libphidget22': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/libphidget22
+[0.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs
+[0.291s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pioneer1/Documents/Rover/phidget'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pioneer1/Documents/Rover/build/libphidget22' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/libphidget22
+[0.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phidgets_msgs)
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs' for CMake module files
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs' for CMake config files
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs/bin'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/pkgconfig/phidgets_msgs.pc'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/pioneer1/Documents/Rover/install/phidgets_msgs/bin'
+[0.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.sh'
+[0.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.bash'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.zsh'
+[0.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pioneer1/Documents/Rover/install/phidgets_msgs/share/colcon-core/packages/phidgets_msgs)
+[0.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.625s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.637s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pioneer1/Documents/Rover/install/local_setup.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pioneer1/Documents/Rover/install/_local_setup_util_ps1.py'
+[0.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pioneer1/Documents/Rover/install/setup.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pioneer1/Documents/Rover/install/local_setup.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pioneer1/Documents/Rover/install/_local_setup_util_sh.py'
+[0.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pioneer1/Documents/Rover/install/setup.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pioneer1/Documents/Rover/install/local_setup.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pioneer1/Documents/Rover/install/setup.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pioneer1/Documents/Rover/install/local_setup.zsh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pioneer1/Documents/Rover/install/setup.zsh'

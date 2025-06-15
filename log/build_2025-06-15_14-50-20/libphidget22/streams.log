@@ -1,0 +1,479 @@
+[0.012s] Invoking command in '/home/pioneer1/Documents/Rover/build/libphidget22': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/libphidget22
+[0.021s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.103s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.257s] -- Configuring done (0.2s)
+[0.261s] -- Generating done (0.0s)
+[0.262s] -- Build files have been written to: /home/pioneer1/Documents/Rover/build/libphidget22
+[0.265s] Invoked command in '/home/pioneer1/Documents/Rover/build/libphidget22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/libphidget22
+[0.266s] Invoking command in '/home/pioneer1/Documents/Rover/build/libphidget22': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/libphidget22 -- -j8 -l8
+[0.295s] [ 12%] [34m[1mCreating directories for 'EP_libphidget22'[0m
+[0.310s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'EP_libphidget22'[0m
+[0.316s] -- Downloading...
+[0.316s]    dst='/home/pioneer1/Documents/Rover/build/libphidget22/EP_libphidget22-prefix/src/libphidget22-1.19.20240304.tar.gz'
+[0.316s]    timeout='none'
+[0.316s]    inactivity timeout='none'
+[0.316s] -- Using src='https://www.phidgets.com/downloads/phidget22/libraries/linux/libphidget22/libphidget22-1.19.20240304.tar.gz'
+[1.633s] -- [download 0% complete]
+[1.913s] -- [download 1% complete]
+[3.879s] -- [download 2% complete]
+[4.157s] -- [download 3% complete]
+[4.435s] -- [download 5% complete]
+[4.991s] -- [download 6% complete]
+[5.269s] -- [download 7% complete]
+[5.547s] -- [download 9% complete]
+[5.824s] -- [download 10% complete]
+[5.826s] -- [download 12% complete]
+[6.102s] -- [download 13% complete]
+[6.105s] -- [download 14% complete]
+[6.106s] -- [download 16% complete]
+[6.386s] -- [download 18% complete]
+[6.659s] -- [download 19% complete]
+[6.660s] -- [download 20% complete]
+[6.664s] -- [download 22% complete]
+[6.948s] -- [download 25% complete]
+[7.226s] -- [download 26% complete]
+[7.227s] -- [download 28% complete]
+[7.505s] -- [download 29% complete]
+[7.506s] -- [download 30% complete]
+[7.507s] -- [download 32% complete]
+[7.788s] -- [download 36% complete]
+[8.068s] -- [download 39% complete]
+[8.346s] -- [download 43% complete]
+[8.625s] -- [download 45% complete]
+[8.626s] -- [download 46% complete]
+[8.907s] -- [download 49% complete]
+[9.185s] -- [download 50% complete]
+[9.188s] -- [download 53% complete]
+[9.468s] -- [download 54% complete]
+[9.470s] -- [download 57% complete]
+[9.746s] -- [download 58% complete]
+[9.764s] -- [download 60% complete]
+[10.021s] -- [download 61% complete]
+[10.048s] -- [download 64% complete]
+[10.302s] -- [download 66% complete]
+[10.341s] -- [download 68% complete]
+[10.579s] -- [download 69% complete]
+[10.617s] -- [download 70% complete]
+[10.619s] -- [download 72% complete]
+[10.856s] -- [download 73% complete]
+[10.857s] -- [download 74% complete]
+[10.898s] -- [download 76% complete]
+[11.133s] -- [download 77% complete]
+[11.134s] -- [download 78% complete]
+[11.176s] -- [download 80% complete]
+[11.410s] -- [download 81% complete]
+[11.412s] -- [download 82% complete]
+[11.450s] -- [download 83% complete]
+[11.454s] -- [download 85% complete]
+[11.707s] -- [download 88% complete]
+[11.732s] -- [download 89% complete]
+[11.733s] -- [download 91% complete]
+[11.985s] -- [download 93% complete]
+[12.011s] -- [download 94% complete]
+[12.011s] -- [download 96% complete]
+[12.263s] -- [download 99% complete]
+[13.190s] -- [download 100% complete]
+[13.190s] -- verifying file...
+[13.190s]        file='/home/pioneer1/Documents/Rover/build/libphidget22/EP_libphidget22-prefix/src/libphidget22-1.19.20240304.tar.gz'
+[13.194s] -- Downloading... done
+[13.211s] -- extracting...
+[13.212s]      src='/home/pioneer1/Documents/Rover/build/libphidget22/EP_libphidget22-prefix/src/libphidget22-1.19.20240304.tar.gz'
+[13.212s]      dst='/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src'
+[13.212s] -- extracting... [tar xfz]
+[13.237s] -- extracting... [analysis]
+[13.237s] -- extracting... [rename]
+[13.237s] -- extracting... [clean up]
+[13.237s] -- extracting... done
+[13.248s] [ 37%] [34m[1mNo update step for 'EP_libphidget22'[0m
+[13.262s] [ 50%] [34m[1mNo patch step for 'EP_libphidget22'[0m
+[13.279s] [ 62%] [34m[1mPerforming configure step for 'EP_libphidget22'[0m
+[13.362s] checking for a BSD-compatible install... /usr/bin/install -c
+[13.366s] checking whether build environment is sane... yes
+[13.376s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[13.376s] checking for gawk... no
+[13.377s] checking for mawk... mawk
+[13.386s] checking whether make sets $(MAKE)... yes
+[13.394s] checking whether make supports nested variables... yes
+[13.412s] checking whether make supports the include directive... yes (GNU style)
+[13.413s] checking for gcc... gcc
+[13.489s] checking whether the C compiler works... yes
+[13.489s] checking for C compiler default output file name... a.out
+[13.511s] checking for suffix of executables... 
+[13.541s] checking whether we are cross compiling... no
+[13.554s] checking for suffix of object files... o
+[13.567s] checking whether the compiler supports GNU C... yes
+[13.585s] checking whether gcc accepts -g... yes
+[13.620s] checking for gcc option to enable C11 features... none needed
+[13.641s] checking whether gcc understands -c and -o together... yes
+[13.667s] checking dependency style of gcc... gcc3
+[13.668s] checking for ar... ar
+[13.691s] checking the archiver (ar) interface... ar
+[13.761s] checking build system type... x86_64-pc-linux-gnu
+[13.761s] checking host system type... x86_64-pc-linux-gnu
+[13.766s] checking how to print strings... printf
+[13.771s] checking for a sed that does not truncate output... /usr/bin/sed
+[13.777s] checking for grep that handles long lines and -e... /usr/bin/grep
+[13.779s] checking for egrep... /usr/bin/grep -E
+[13.782s] checking for fgrep... /usr/bin/grep -F
+[13.789s] checking for ld used by gcc... /usr/bin/ld
+[13.793s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[13.797s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[13.827s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[13.828s] checking whether ln -s works... yes
+[13.835s] checking the maximum length of command line arguments... 1572864
+[13.840s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[13.840s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[13.840s] checking for /usr/bin/ld option to reload object files... -r
+[13.841s] checking for objdump... objdump
+[13.841s] checking how to recognize dependent libraries... pass_all
+[13.842s] checking for dlltool... no
+[13.842s] checking how to associate runtime and link libraries... printf %s\n
+[13.874s] checking for archiver @FILE support... @
+[13.874s] checking for strip... strip
+[13.874s] checking for ranlib... ranlib
+[13.934s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[13.935s] checking for sysroot... no
+[13.938s] checking for a working dd... /usr/bin/dd
+[13.940s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[13.950s] checking for mt... mt
+[13.954s] checking if mt is a manifest tool... no
+[13.975s] checking for stdio.h... yes
+[13.992s] checking for stdlib.h... yes
+[14.009s] checking for string.h... yes
+[14.025s] checking for inttypes.h... yes
+[14.042s] checking for stdint.h... yes
+[14.062s] checking for strings.h... yes
+[14.080s] checking for sys/stat.h... yes
+[14.098s] checking for sys/types.h... yes
+[14.119s] checking for unistd.h... yes
+[14.142s] checking for dlfcn.h... yes
+[14.144s] checking for objdir... .libs
+[14.192s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[14.192s] checking for gcc option to produce PIC... -fPIC -DPIC
+[14.208s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[14.252s] checking if gcc static flag -static works... yes
+[14.267s] checking if gcc supports -c -o file.o... yes
+[14.267s] checking if gcc supports -c -o file.o... (cached) yes
+[14.273s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[14.293s] checking whether -lc should be explicitly linked in... no
+[14.327s] checking dynamic linker characteristics... GNU/Linux ld.so
+[14.327s] checking how to hardcode library paths into programs... immediate
+[14.328s] checking whether stripping libraries is possible... yes
+[14.328s] checking if libtool supports shared libraries... yes
+[14.328s] checking whether to build shared libraries... yes
+[14.328s] checking whether to build static libraries... yes
+[14.328s] checking whether make supports nested variables... (cached) yes
+[14.376s] checking whether byte ordering is bigendian... no
+[14.376s] checking for ldconfig... /sbin/ldconfig
+[14.408s] checking for library containing dlopen... none required
+[14.471s] checking for library containing sqrt... -lm
+[14.497s] checking for library containing pthread_create... none required
+[14.564s] checking for library containing libusb_init... -lusb-1.0
+[14.574s] checking for newlocale in xlocale.h... no
+[14.588s] checking for newlocale in locale.h... yes
+[14.603s] checking that generated files are newer than configure... done
+[14.603s] configure: creating ./config.status
+[15.235s] config.status: creating Makefile
+[15.256s] config.status: creating libphidget22.pc
+[15.273s] config.status: executing depfiles commands
+[16.311s] config.status: executing libtool commands
+[16.393s] [ 75%] [34m[1mPerforming build step for 'EP_libphidget22'[0m
+[16.417s]   CC       src/formatters.lo
+[16.418s]   CC       src/gpp.lo
+[16.418s]   CC       src/lightning.lo
+[16.419s]   CC       src/manager.lo
+[16.419s]   CC       src/mesh.lo
+[16.420s]   CC       src/object.lo
+[16.423s]   CC       src/phidget.lo
+[16.425s]   CC       src/phidget22.lo
+[16.819s]   CC       src/spi.lo
+[16.820s]   CC       src/stats.lo
+[16.917s]   CC       src/supportedpacket.gen.lo
+[16.964s]   CC       src/usb.lo
+[17.005s]   CC       src/vint.lo
+[17.073s]   CC       src/vintpackets.lo
+[17.170s]   CC       src/virtual.lo
+[17.284s] Making phidget22.h
+[17.310s]   CC       src/analogsensor.lo
+[17.489s]   CC       src/bridge.lo
+[17.591s]   CC       src/bridgepackets.gen.lo
+[17.602s]   CC       src/class/accelerometer.lo
+[17.824s]   CC       src/class/bldcmotor.lo
+[17.922s]   CC       src/class/capacitivetouch.lo
+[18.012s]   CC       src/class/currentinput.lo
+[18.020s]   CC       src/class/currentoutput.lo
+[18.559s]   CC       src/class/dataadapter.lo
+[18.668s]   CC       src/class/dcmotor.lo
+[18.748s]   CC       src/class/dictionary.lo
+[18.750s]   CC       src/class/digitalinput.lo
+[18.841s]   CC       src/class/digitaloutput.lo
+[18.990s]   CC       src/class/distancesensor.lo
+[19.365s]   CC       src/class/encoder.lo
+[19.376s]   CC       src/class/firmwareupgrade.lo
+[19.744s]   CC       src/class/frequencycounter.lo
+[19.812s]   CC       src/class/generic.lo
+[19.934s]   CC       src/class/gps.lo
+[19.996s]   CC       src/class/gyroscope.lo
+[20.019s]   CC       src/class/hub.lo
+[20.025s]   CC       src/class/humiditysensor.lo
+[20.276s]   CC       src/class/ir.lo
+[20.290s]   CC       src/class/lcd.lo
+[20.583s]   CC       src/class/lightsensor.lo
+[20.631s]   CC       src/class/magnetometer.lo
+[20.683s]   CC       src/class/meshdongle.lo
+[20.755s]   CC       src/class/motorpositioncontroller.lo
+[20.855s]   CC       src/class/motorvelocitycontroller.lo
+[20.892s]   CC       src/class/phsensor.lo
+[21.143s]   CC       src/class/powerguard.lo
+[21.316s]   CC       src/class/pressuresensor.lo
+[21.473s]   CC       src/class/rcservo.lo
+[21.482s]   CC       src/class/resistanceinput.lo
+[21.626s]   CC       src/class/rfid.lo
+[21.703s]   CC       src/class/soundsensor.lo
+[21.780s]   CC       src/class/spatial.lo
+[22.055s]   CC       src/class/stepper.lo
+[22.203s]   CC       src/class/temperaturesensor.lo
+[22.257s]   CC       src/class/voltageinput.lo
+[22.257s]   CC       src/class/voltageoutput.lo
+[22.276s]   CC       src/class/voltageratioinput.lo
+[22.526s]   CC       src/constants.lo
+[22.826s]   CC       src/datainterval.gen.lo
+[22.907s]   CC       src/debug.lo
+[22.919s]   CC       src/device/accelerometerdevice.lo
+[22.934s]   CC       src/device/advancedservodevice.lo
+[23.300s]   CC       src/device/analogdevice.lo
+[23.415s]   CC       src/device/bridgedevice.lo
+[23.432s]   CC       src/device/dataadapterdevice.lo
+[23.455s]   CC       src/device/dictionarydevice.lo
+[23.467s]   CC       src/device/encoderdevice.lo
+[23.522s]   CC       src/device/firmwareupgradedevice.lo
+[23.577s]   CC       src/device/frequencycounterdevice.lo
+[23.701s]   CC       src/device/genericdevice.lo
+[23.776s]   CC       src/device/gpsdevice.lo
+[23.854s]   CC       src/device/hubdevice.lo
+[23.952s]   CC       src/device/interfacekitdevice.lo
+[24.086s]   CC       src/device/irdevice.lo
+[24.133s]   CC       src/device/leddevice.lo
+[24.135s]   CC       src/device/meshdongledevice.lo
+[24.238s]   CC       src/device/motorcontroldevice.lo
+[24.242s]   CC       src/device/phsensordevice.lo
+[24.538s]   CC       src/device/rfiddevice.lo
+[24.575s]   CC       src/device/servodevice.lo
+[24.626s]   CC       src/device/spatialdevice.lo
+[24.754s]   CC       src/device/stepperdevice.lo
+[24.862s]   CC       src/device/temperaturesensordevice.lo
+[24.908s]   CC       src/device/textlcddevice.lo
+[25.152s]   CC       src/device/vintdevice.lo
+[25.236s]   CC       src/devices.lo
+[25.327s]   CC       src/dispatch.lo
+[25.573s]   CC       src/enumutil.gen.lo
+[25.645s]   CC       src/errorstrings.gen.lo
+[25.688s]   CC       src/ext/cvtutf.lo
+[25.807s]   CC       src/ext/md5.lo
+[25.846s]   CC       src/ext/mos/base64.lo
+[25.946s]   CC       src/ext/mos/base.lo
+[26.060s]   CC       src/ext/mos/crc32.lo
+[26.156s]   CC       src/ext/mos/ctype.lo
+[26.192s]   CC       src/ext/mos/endswith.lo
+[26.238s]   CC       src/ext/mos/getcwd.lo
+[26.330s]   CC       src/ext/mos/getenv.lo
+[26.405s]   CC       src/ext/mos/getopt.lo
+[26.462s]   CC       src/ext/mos/getpasswd-unix.lo
+[26.481s]   CC       src/ext/mos/glob.lo
+[26.485s]   CC       src/ext/mos/glock.lo
+[26.529s]   CC       src/ext/mos/hexdump.lo
+[26.637s]   CC       src/ext/mos/init_daemon.lo
+[26.728s]   CC       src/ext/mos/iop.lo
+[26.752s]   CC       src/ext/mos/kv/kv.lo
+[26.786s]   CC       src/ext/mos/kv/kvent.lo
+[26.797s]   CC       src/ext/mos/kv/parse.lo
+[26.799s]   CC       src/ext/mos/kv/scan.lo
+[26.931s]   CC       src/ext/mos/malloc.lo
+[26.946s]   CC       src/ext/mos/malloc-user.lo
+[27.142s]   CC       src/ext/mos/md5c.lo
+[27.192s]   CC       src/ext/mos/memchr.lo
+[27.247s]   CC       src/ext/mos/memcmp.lo
+[27.262s]   CC       src/ext/mos/memmem.lo
+[27.263s]   CC       src/ext/mos/mkdirp.lo
+[27.467s]   CC       src/ext/mos/mos_atomic-pthread.lo
+[27.506s]   CC       src/ext/mos/mos_dl-unix.lo
+[27.529s]   CC       src/ext/mos/mos_error-errno.lo
+[27.554s]   CC       src/ext/mos/mos_fileio-unix-user.lo
+[27.571s]   CC       src/ext/mos/mos_lock-pthread.lo
+[27.582s]   CC       src/ext/mos/mos_net.lo
+[27.605s]   CC       src/ext/mos/mos_netops-unix.lo
+[27.759s]   CC       src/ext/mos/mos_os.lo
+[27.793s]   CC       src/ext/mos/mos_random-unix.lo
+[27.794s]   CC       src/ext/mos/mos_setenv-native.lo
+[27.974s]   CC       src/ext/mos/mos_stacktrace-gnu.lo
+[27.986s]   CC       src/ext/mos/mos_task-pthread.lo
+[28.071s]   CC       src/ext/mos/mos_time-unix.lo
+[28.076s]   CC       src/ext/mos/mos_tlock.lo
+[28.084s]   CC       src/ext/mos/path.lo
+[28.115s]   CC       src/ext/mos/pkcs5_pbkdf2.lo
+[28.302s]   CC       src/ext/mos/printf-smart.lo
+[28.302s]   CC       src/ext/mos/process-unix.lo
+[28.315s]   CC       src/ext/mos/rand48.lo
+[28.378s]   CC       src/ext/mos/random.lo
+[28.401s]   CC       src/ext/mos/readdir-unix.lo
+[28.464s]   CC       src/ext/mos/readline.lo
+[28.469s]   CC       src/ext/mos/rwrlock.lo
+[28.523s]   CC       src/ext/mos/scanf.lo
+[28.569s]   CC       src/ext/mos/sha1.lo
+[28.604s]   CC       src/ext/mos/sha2.lo
+[28.605s]   CC       src/ext/mos/snprintf.lo
+[28.626s]   CC       src/ext/mos/strcasecmp.lo
+[28.715s]   CC       src/ext/mos/strchr.lo
+[28.775s]   CC       src/ext/mos/strcmp.lo
+[28.821s]   CC       src/ext/mos/strdup.lo
+[28.909s]   CC       src/ext/mos/strlcat.lo
+[29.009s]   CC       src/ext/mos/strlcpy.lo
+[29.074s]   CC       src/ext/mos/strlen.lo
+[29.075s]   CC       src/ext/mos/strncmp.lo
+[29.128s]   CC       src/ext/mos/strncpy.lo
+[29.199s]   CC       src/ext/mos/strnsep.lo
+[29.220s]   CC       src/ext/mos/strnstr.lo
+[29.298s]   CC       src/ext/mos/strrchr.lo
+[29.354s]   CC       src/ext/mos/strrev.lo
+[29.366s]   CC       src/ext/mos/strstr.lo
+[29.382s]   CC       src/ext/mos/strton.lo
+[29.414s]   CC       src/ext/mos/strtrim.lo
+[29.482s]   CC       src/ext/mos/time.lo
+[29.529s]   CC       src/ext/mos/urldecode.lo
+[29.585s]   CC       src/ext/mos/urlencode.lo
+[29.638s]   CC       src/ext/mos/vasprintf.lo
+[29.686s]   CC       src/network/channel.lo
+[29.710s]   CC       src/network/client.lo
+[29.719s]   CC       src/network/network.lo
+[29.836s]   CC       src/network/networkcontrol.lo
+[29.896s]   CC       src/network/server.lo
+[29.933s]   CC       src/network/servers.lo
+[29.937s]   CC       src/network/zeroconf-avahi.lo
+[30.247s]   CC       src/plat/linux/usblinux.lo
+[30.290s]   CC       src/util/config.lo
+[30.460s]   CC       src/util/dataadaptersupport.lo
+[30.655s]   CC       src/util/irsupport.lo
+[30.713s]   CC       src/util/jsmn.lo
+[30.733s]   CC       src/util/json.lo
+[30.861s]   CC       src/util/log.lo
+[31.146s]   CC       src/util/packettracker.lo
+[31.241s]   CC       src/util/packing.lo
+[31.392s]   CC       src/util/rfidsupport.lo
+[31.420s]   CC       src/util/utils.lo
+[31.499s]   CC       src/util/voltageinputsupport.lo
+[32.327s]   CCLD     libphidget22.la
+[32.612s] [ 87%] [34m[1mPerforming install step for 'EP_libphidget22'[0m
+[32.747s]  /usr/bin/mkdir -p '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib'
+[32.748s]  /usr/bin/mkdir -p '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include/mos'
+[32.748s]  /usr/bin/mkdir -p '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include/mos/kv'
+[32.748s]  /usr/bin/mkdir -p '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include'
+[32.748s]  /bin/bash ./libtool   --mode=install /usr/bin/install -c   libphidget22.la '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib'
+[32.748s]  /usr/bin/mkdir -p '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/pkgconfig'
+[32.750s]  /usr/bin/install -c -m 644 /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/kv/kv.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/kv/parse.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/kv/scan.h '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include/mos/kv'
+[32.751s]  /usr/bin/install -c -m 644 libphidget22.pc '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/pkgconfig'
+[32.751s]  /usr/bin/install -c -m 644 phidget22.h '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include'
+[32.751s]  /usr/bin/install -c -m 644 /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/bsdqueue.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/bsdtree.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/init_daemon.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_assert.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_atomic.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_base64.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_basic.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_basic_types.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_byteorder.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_crc32.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_crc32_impl.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_dl.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_endian-i386.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_error-errno.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_fmt.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_fileio.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_getpasswd.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_hexdump.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_iop.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_lock.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_macrocompat.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_md5.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_net.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_netops.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_os.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_os-Linux-user.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_random.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_readdir.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_readline.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_rwrlock.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_service.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_sha1.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_sha2.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_stacktrace.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_task.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_time.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_tlock.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_typeio.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_urldecode.h /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/mos_urlencode.h '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include/mos'
+[32.752s]  /usr/bin/install -c -m 644 /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22-src/src/ext/mos/pkcs5_pbkdf2.h '/home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/include/mos'
+[32.759s] libtool: install: /usr/bin/install -c .libs/libphidget22.so.0.0.0 /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/libphidget22.so.0.0.0
+[32.762s] libtool: install: (cd /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib && { ln -s -f libphidget22.so.0.0.0 libphidget22.so.0 || { rm -f libphidget22.so.0 && ln -s libphidget22.so.0.0.0 libphidget22.so.0; }; })
+[32.763s] libtool: install: (cd /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib && { ln -s -f libphidget22.so.0.0.0 libphidget22.so || { rm -f libphidget22.so && ln -s libphidget22.so.0.0.0 libphidget22.so; }; })
+[32.764s] libtool: install: /usr/bin/install -c .libs/libphidget22.lai /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/libphidget22.la
+[32.765s] libtool: install: /usr/bin/install -c .libs/libphidget22.a /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/libphidget22.a
+[32.772s] libtool: install: chmod 644 /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/libphidget22.a
+[32.773s] libtool: install: ranlib /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib/libphidget22.a
+[32.822s] libtool: finish: PATH="/opt/ros/jazzy/bin:/home/pioneer1/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pioneer1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/sbin" ldconfig -n /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib
+[32.823s] ----------------------------------------------------------------------
+[32.823s] Libraries have been installed in:
+[32.823s]    /home/pioneer1/Documents/Rover/build/libphidget22/libphidget22_install/lib
+[32.824s] 
+[32.824s] If you ever happen to want to link against installed libraries
+[32.824s] in a given directory, LIBDIR, you must either use libtool, and
+[32.824s] specify the full pathname of the library, or use the '-LLIBDIR'
+[32.824s] flag during linking and do at least one of the following:
+[32.824s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[32.824s]      during execution
+[32.824s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[32.824s]      during linking
+[32.824s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[32.824s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[32.824s] 
+[32.824s] See any operating system documentation about shared libraries for
+[32.824s] more information, such as the ld(1) and ld.so(8) manual pages.
+[32.825s] ----------------------------------------------------------------------
+[32.883s] [100%] [34m[1mCompleted 'EP_libphidget22'[0m
+[32.902s] [100%] Built target EP_libphidget22
+[32.911s] Invoked command in '/home/pioneer1/Documents/Rover/build/libphidget22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/libphidget22 -- -j8 -l8
+[32.912s] Invoking command in '/home/pioneer1/Documents/Rover/build/libphidget22': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/libphidget22
+[32.918s] -- Install configuration: ""
+[32.918s] -- Execute custom install script
+[32.919s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//libphidget22.a
+[32.925s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//libphidget22.la
+[32.931s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//libphidget22.so
+[32.936s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//libphidget22.so.0
+[32.941s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//libphidget22.so.0.0.0
+[32.945s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib//pkgconfig/libphidget22.pc
+[32.951s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/bsdqueue.h
+[32.956s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/bsdtree.h
+[32.961s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/init_daemon.h
+[32.966s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/kv/kv.h
+[32.972s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/kv/parse.h
+[32.977s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/kv/scan.h
+[32.982s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_assert.h
+[32.988s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_atomic.h
+[32.993s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_base64.h
+[32.998s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_basic.h
+[33.003s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_basic_types.h
+[33.008s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_byteorder.h
+[33.012s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_crc32.h
+[33.018s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_crc32_impl.h
+[33.023s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_dl.h
+[33.028s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_endian-i386.h
+[33.033s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_error-errno.h
+[33.038s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_fileio.h
+[33.043s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_fmt.h
+[33.048s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_getpasswd.h
+[33.053s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_hexdump.h
+[33.058s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_iop.h
+[33.063s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_lock.h
+[33.069s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_macrocompat.h
+[33.074s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_md5.h
+[33.079s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_net.h
+[33.084s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_netops.h
+[33.089s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_os-Linux-user.h
+[33.094s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_os.h
+[33.099s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_random.h
+[33.104s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_readdir.h
+[33.109s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_readline.h
+[33.114s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_rwrlock.h
+[33.119s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_service.h
+[33.124s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_sha1.h
+[33.129s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_sha2.h
+[33.134s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_stacktrace.h
+[33.139s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_task.h
+[33.144s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_time.h
+[33.149s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_tlock.h
+[33.154s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_typeio.h
+[33.159s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_urldecode.h
+[33.164s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/mos_urlencode.h
+[33.169s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//mos/pkcs5_pbkdf2.h
+[33.175s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/include/libphidget22//phidget22.h
+[33.180s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/libphidget22_library_path.sh
+[33.185s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/libphidget22_library_path.dsv
+[33.190s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/ament_index/resource_index/package_run_dependencies/libphidget22
+[33.196s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/ament_index/resource_index/parent_prefix_path/libphidget22
+[33.201s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/ament_prefix_path.sh
+[33.206s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/ament_prefix_path.dsv
+[33.211s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/path.sh
+[33.216s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/environment/path.dsv
+[33.222s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/local_setup.bash
+[33.227s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/local_setup.sh
+[33.232s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/local_setup.zsh
+[33.238s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/local_setup.dsv
+[33.243s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/package.dsv
+[33.248s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/ament_index/resource_index/packages/libphidget22
+[33.253s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/cmake/libphidget22-extras.cmake
+[33.258s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/cmake/libphidget22Config.cmake
+[33.264s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/cmake/libphidget22Config-version.cmake
+[33.269s] -- Symlinking: /home/pioneer1/Documents/Rover/install/libphidget22/share/libphidget22/package.xml
+[33.276s] Invoked command in '/home/pioneer1/Documents/Rover/build/libphidget22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/libphidget22

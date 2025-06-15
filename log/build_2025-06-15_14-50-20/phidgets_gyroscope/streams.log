@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_gyroscope -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_gyroscope
+[0.069s] -- The C compiler identification is GNU 13.3.0
+[0.136s] -- The CXX compiler identification is GNU 13.3.0
+[0.152s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.536s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.690s] -- Found phidgets_api: 2.4.0 (/home/pioneer1/Documents/Rover/install/phidgets_api/share/phidgets_api/cmake)
+[0.698s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.733s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.748s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.871s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.961s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.078s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.116s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.194s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.322s] -- Configuring done (1.3s)
+[1.340s] -- Generating done (0.0s)
+[1.348s] -- Build files have been written to: /home/pioneer1/Documents/Rover/build/phidgets_gyroscope
+[1.361s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_gyroscope -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_gyroscope
+[1.363s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_gyroscope -- -j8 -l8
+[7.291s] [ 50%] [32mBuilding CXX object CMakeFiles/phidgets_gyroscope.dir/src/gyroscope_ros_i.cpp.o[0m
+[8.994s] [100%] [32m[1mLinking CXX shared library libphidgets_gyroscope.so[0m
+[9.379s] [100%] Built target phidgets_gyroscope
+[9.402s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_gyroscope -- -j8 -l8
+[9.403s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_gyroscope
+[10.771s] -- Install configuration: ""
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/lib/libphidgets_gyroscope.so
+[10.771s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_gyroscope/lib/libphidgets_gyroscope.so" to ""
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/include
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/include/phidgets_gyroscope
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/include/phidgets_gyroscope/gyroscope_ros_i.hpp
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/launch
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/launch/gyroscope-launch.py
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/ament_index/resource_index/package_run_dependencies/phidgets_gyroscope
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/ament_index/resource_index/parent_prefix_path/phidgets_gyroscope
+[10.771s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/environment/ament_prefix_path.sh
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/environment/ament_prefix_path.dsv
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/environment/path.sh
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/environment/path.dsv
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/local_setup.bash
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/local_setup.sh
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/local_setup.zsh
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/local_setup.dsv
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/package.dsv
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/ament_index/resource_index/packages/phidgets_gyroscope
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/ament_index/resource_index/rclcpp_components/phidgets_gyroscope
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/cmake/phidgets_gyroscopeConfig.cmake
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/cmake/phidgets_gyroscopeConfig-version.cmake
+[10.772s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_gyroscope/share/phidgets_gyroscope/package.xml
+[10.777s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_gyroscope' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_gyroscope

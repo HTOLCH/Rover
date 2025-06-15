@@ -1,0 +1,18 @@
+{
+  "package_name": "phidgets_msgs",
+  "output_dir": "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_generator_type_description/phidgets_msgs",
+  "idl_tuples": [
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:srv/SetAnalogOutput.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:srv/SetDigitalOutput.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:srv/Trigger.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:msg/EncoderDecimatedSpeed.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:msg/StepperCommand.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:msg/StepperConfig.idl",
+    "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/rosidl_adapter/phidgets_msgs:msg/StepperState.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

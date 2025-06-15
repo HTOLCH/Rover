@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-06215974ee00529cdc32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "phidgets_msgs__py",
+					"jsonFile" : "directory-phidgets_msgs__py-bbdeee60d16ab8e3a8ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pioneer1/Documents/Rover/build/phidgets_msgs/phidgets_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "phidgets_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_phidgets_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_phidgets_msgs_egg-6343d16723acfe54ac42.json",
+					"name" : "ament_cmake_python_build_phidgets_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_phidgets_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_phidgets_msgs-dbfdbdd3932f97711946.json",
+					"name" : "ament_cmake_python_symlink_phidgets_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs-1ea86aeb22e37d171add.json",
+					"name" : "phidgets_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__cpp-d77238d590ff18b65fad.json",
+					"name" : "phidgets_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "phidgets_msgs__py::@c2d06f09b25109f93bae",
+					"jsonFile" : "target-phidgets_msgs__py-be5c49b9ca0cf66d7555.json",
+					"name" : "phidgets_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_generator_c-cb287eb02711a5cba467.json",
+					"name" : "phidgets_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_generator_py-74443e27541c48dd0797.json",
+					"name" : "phidgets_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_generator_type_description-004153ea79a5e556037b.json",
+					"name" : "phidgets_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_c-199b241d179088be0769.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_cpp-b50b60b6b018681a6e2d.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_fastrtps_c-7f56a56c2420f3a318a4.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_fastrtps_cpp-8a3d40a006bbdd737645.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_introspection_c-e8cdd860debc861068ec.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs__rosidl_typesupport_introspection_cpp-345cf7cdcd4f378cde19.json",
+					"name" : "phidgets_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs_s__rosidl_typesupport_c-5f3970d0e62c07c9fb77.json",
+					"name" : "phidgets_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs_s__rosidl_typesupport_fastrtps_c-9aefbc613b5c12717e84.json",
+					"name" : "phidgets_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs_s__rosidl_typesupport_introspection_c-7f89e9eb8d9ca1e68ca3.json",
+					"name" : "phidgets_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_msgs_uninstall-711fd2d41dae44dd7a17.json",
+					"name" : "phidgets_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ee28348d9f90487dd3eb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pioneer1/Documents/Rover/build/phidgets_msgs",
+		"source" : "/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

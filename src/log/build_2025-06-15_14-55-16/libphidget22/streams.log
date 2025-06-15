@@ -1,0 +1,66 @@
+[0.011s] Invoking command in '/home/pioneer1/Documents/Rover/src/build/libphidget22': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/src/phidgets_drivers/libphidget22 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/src/install/libphidget22
+[0.168s] -- The C compiler identification is GNU 13.3.0
+[0.168s] -- The CXX compiler identification is GNU 13.3.0
+[0.168s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.482s] -- Configuring done (0.5s)
+[0.486s] -- Generating done (0.0s)
+[0.488s] -- Build files have been written to: /home/pioneer1/Documents/Rover/src/build/libphidget22
+[0.494s] Invoked command in '/home/pioneer1/Documents/Rover/src/build/libphidget22' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/src/phidgets_drivers/libphidget22 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/src/install/libphidget22
+[0.495s] Invoking command in '/home/pioneer1/Documents/Rover/src/build/libphidget22': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/src/build/libphidget22 -- -j8 -l8
+[0.525s] [ 12%] [34m[1mCreating directories for 'EP_libphidget22'[0m
+[0.541s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'EP_libphidget22'[0m
+[0.547s] -- Downloading...
+[0.547s]    dst='/home/pioneer1/Documents/Rover/src/build/libphidget22/EP_libphidget22-prefix/src/libphidget22-1.19.20240304.tar.gz'
+[0.547s]    timeout='none'
+[0.547s]    inactivity timeout='none'
+[0.547s] -- Using src='https://www.phidgets.com/downloads/phidget22/libraries/linux/libphidget22/libphidget22-1.19.20240304.tar.gz'
+[1.437s] -- [download 0% complete]
+[1.438s] -- [download 1% complete]
+[1.439s] -- [download 4% complete]
+[1.440s] -- [download 5% complete]
+[1.718s] -- [download 7% complete]
+[1.997s] -- [download 9% complete]
+[1.998s] -- [download 13% complete]
+[2.274s] -- [download 14% complete]
+[2.275s] -- [download 16% complete]
+[2.276s] -- [download 18% complete]
+[2.276s] -- [download 19% complete]
+[2.554s] -- [download 20% complete]
+[2.555s] -- [download 22% complete]
+[2.556s] -- [download 25% complete]
+[2.839s] -- [download 30% complete]
+[3.137s] -- [download 36% complete]
+[3.416s] -- [download 42% complete]
+[3.417s] -- [download 43% complete]
+[3.699s] -- [download 45% complete]
+[3.699s] -- [download 48% complete]
+[3.990s] -- [download 53% complete]
+[3.994s] -- [download 54% complete]
+[4.271s] -- [download 59% complete]
+[4.274s] -- [download 60% complete]
+[4.549s] -- [download 62% complete]
+[4.552s] -- [download 65% complete]
+[4.553s] -- [download 66% complete]
+[4.833s] -- [download 69% complete]
+[4.834s] -- [download 72% complete]
+[5.111s] -- [download 74% complete]
+[5.115s] -- [download 78% complete]
+[5.392s] -- [download 79% complete]
+[5.392s] -- [download 80% complete]
+[5.394s] -- [download 81% complete]
+[5.394s] -- [download 83% complete]
+[5.585s] gmake[2]: *** [CMakeFiles/EP_libphidget22.dir/build.make:99: EP_libphidget22-prefix/src/EP_libphidget22-stamp/EP_libphidget22-download] Interrupt
+[5.585s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/EP_libphidget22.dir/all] Interrupt
+[5.585s] gmake: *** [Makefile:146: all] Interrupt
+[5.586s] Invoked command in '/home/pioneer1/Documents/Rover/src/build/libphidget22' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/src/build/libphidget22 -- -j8 -l8

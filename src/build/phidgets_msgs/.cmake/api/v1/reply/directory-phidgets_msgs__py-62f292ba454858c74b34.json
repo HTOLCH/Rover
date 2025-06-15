@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "phidgets_msgs__py",
+		"source" : "/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/phidgets_msgs__py"
+	}
+}

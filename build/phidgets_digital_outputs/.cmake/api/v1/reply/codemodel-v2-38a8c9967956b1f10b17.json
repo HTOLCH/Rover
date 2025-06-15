@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d0270e4be108613ac8c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "phidgets_digital_outputs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_digital_outputs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_digital_outputs-7f69a87e7f90075c23f9.json",
+					"name" : "phidgets_digital_outputs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phidgets_digital_outputs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phidgets_digital_outputs_uninstall-e40924262f95ac83f961.json",
+					"name" : "phidgets_digital_outputs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8fc7e68ebf7422d4b136.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pioneer1/Documents/Rover/build/phidgets_digital_outputs",
+		"source" : "/home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_digital_outputs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

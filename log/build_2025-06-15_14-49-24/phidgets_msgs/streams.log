@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs
+[0.020s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.020s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.020s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.020s]   CMake did not find one.
+[0.020s] 
+[0.020s]   Could not find a package configuration file provided by "catkin" with any
+[0.020s]   of the following names:
+[0.020s] 
+[0.020s]     catkinConfig.cmake
+[0.020s]     catkin-config.cmake
+[0.020s] 
+[0.020s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.020s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.020s]   provides a separate development package or SDK, be sure it has been
+[0.020s]   installed.
+[0.020s] 
+[0.021s] [0m
+[0.021s] -- Configuring incomplete, errors occurred!
+[0.132s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs

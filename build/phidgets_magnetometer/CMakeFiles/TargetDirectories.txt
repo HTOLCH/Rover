@@ -1,0 +1,10 @@
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/phidgets_magnetometer_uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/phidgets_magnetometer.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/test.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/edit_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/rebuild_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/list_install_components.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/install.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/install/local.dir
+/home/pioneer1/Documents/Rover/build/phidgets_magnetometer/CMakeFiles/install/strip.dir

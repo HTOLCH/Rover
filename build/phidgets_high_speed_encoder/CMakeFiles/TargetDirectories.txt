@@ -1,0 +1,10 @@
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/phidgets_high_speed_encoder_uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/phidgets_high_speed_encoder.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/test.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/edit_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/rebuild_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/list_install_components.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/install.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/install/local.dir
+/home/pioneer1/Documents/Rover/build/phidgets_high_speed_encoder/CMakeFiles/install/strip.dir

@@ -1,0 +1,12 @@
+{
+  "package_name": "phidgets_msgs",
+  "non_idl_tuples": [
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:srv/SetAnalogOutput.srv",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:srv/SetDigitalOutput.srv",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:srv/Trigger.srv",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:msg/EncoderDecimatedSpeed.msg",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:msg/StepperCommand.msg",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:msg/StepperConfig.msg",
+    "/home/pioneer1/Documents/Rover/src/phidgets_drivers/phidgets_msgs:msg/StepperState.msg"
+  ]
+}

@@ -1,0 +1,10 @@
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/phidgets_stepper_uninstall.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/phidgets_stepper.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/test.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/edit_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/rebuild_cache.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/list_install_components.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/install.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/install/local.dir
+/home/pioneer1/Documents/Rover/build/phidgets_stepper/CMakeFiles/install/strip.dir

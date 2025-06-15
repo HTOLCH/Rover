@@ -1,0 +1,63 @@
+[0.024s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_temperature -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_temperature
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.159s] -- The CXX compiler identification is GNU 13.3.0
+[0.181s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.572s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.685s] -- Found phidgets_api: 2.4.0 (/home/pioneer1/Documents/Rover/install/phidgets_api/share/phidgets_api/cmake)
+[0.690s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.731s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.873s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.947s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.966s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.081s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.121s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.240s] -- Configuring done (1.2s)
+[1.253s] -- Generating done (0.0s)
+[1.258s] -- Build files have been written to: /home/pioneer1/Documents/Rover/build/phidgets_temperature
+[1.285s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_temperature -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_temperature
+[1.286s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_temperature -- -j8 -l8
+[1.377s] [ 50%] [32mBuilding CXX object CMakeFiles/phidgets_temperature.dir/src/temperature_ros_i.cpp.o[0m
+[6.130s] [100%] [32m[1mLinking CXX shared library libphidgets_temperature.so[0m
+[6.304s] [100%] Built target phidgets_temperature
+[6.315s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_temperature -- -j8 -l8
+[6.316s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_temperature
+[6.322s] -- Install configuration: ""
+[6.322s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/lib/libphidgets_temperature.so
+[6.323s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_temperature/lib/libphidgets_temperature.so" to ""
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/include
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/include/phidgets_temperature
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/include/phidgets_temperature/temperature_ros_i.hpp
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/launch
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/launch/temperature-launch.py
+[6.323s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/ament_index/resource_index/package_run_dependencies/phidgets_temperature
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/ament_index/resource_index/parent_prefix_path/phidgets_temperature
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/environment/ament_prefix_path.sh
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/environment/ament_prefix_path.dsv
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/environment/path.sh
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/environment/path.dsv
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/local_setup.bash
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/local_setup.sh
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/local_setup.zsh
+[6.324s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/local_setup.dsv
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/package.dsv
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/ament_index/resource_index/packages/phidgets_temperature
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/ament_index/resource_index/rclcpp_components/phidgets_temperature
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/cmake/phidgets_temperatureConfig.cmake
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/cmake/phidgets_temperatureConfig-version.cmake
+[6.325s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_temperature/share/phidgets_temperature/package.xml
+[6.327s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_temperature' returned '0': AMENT_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api:/home/pioneer1/Documents/Rover/install/libphidget22:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pioneer1/Documents/Rover/install/phidgets_api/lib:/home/pioneer1/Documents/Rover/install/libphidget22/opt/libphidget22/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_temperature

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+94de3a99dd1dc0a6c3cf5d8c2d7a7eb7 CMakeFiles/phidgets_gyroscope_uninstall

@@ -1,0 +1,1 @@
+/home/pioneer1/Documents/Rover/phidgets_drivers/libphidget22/env_hook/libphidget22_library_path.sh

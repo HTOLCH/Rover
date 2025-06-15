@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/EP_libphidget22.dir/build.make:99: EP_libphidget22-prefix/src/EP_libphidget22-stamp/EP_libphidget22-download] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/EP_libphidget22.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

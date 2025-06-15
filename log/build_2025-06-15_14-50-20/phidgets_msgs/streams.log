@@ -1,0 +1,364 @@
+[0.010s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs
+[0.019s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.100s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.175s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.236s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.238s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.657s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.927s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.285s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.367s] -- Found PythonExtra: /usr/bin/python3  
+[1.634s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.670s] -- Configuring done (1.7s)
+[1.699s] -- Generating done (0.0s)
+[1.706s] -- Build files have been written to: /home/pioneer1/Documents/Rover/build/phidgets_msgs
+[1.710s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pioneer1/Documents/Rover/phidgets_drivers/phidgets_msgs -DCMAKE_INSTALL_PREFIX=/home/pioneer1/Documents/Rover/install/phidgets_msgs
+[1.710s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_msgs -- -j8 -l8
+[1.742s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.747s] [  1%] Built target ament_cmake_python_symlink_phidgets_msgs
+[1.871s] running egg_info
+[1.872s] creating phidgets_msgs.egg-info
+[1.883s] writing phidgets_msgs.egg-info/PKG-INFO
+[1.884s] writing dependency_links to phidgets_msgs.egg-info/dependency_links.txt
+[1.884s] writing top-level names to phidgets_msgs.egg-info/top_level.txt
+[1.884s] writing manifest file 'phidgets_msgs.egg-info/SOURCES.txt'
+[1.918s] reading manifest file 'phidgets_msgs.egg-info/SOURCES.txt'
+[1.919s] writing manifest file 'phidgets_msgs.egg-info/SOURCES.txt'
+[1.938s] [  1%] Built target ament_cmake_python_build_phidgets_msgs_egg
+[1.971s] [  1%] Built target phidgets_msgs__rosidl_generator_type_description
+[1.978s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.984s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.429s] [  3%] Built target phidgets_msgs__cpp
+[2.528s] [  7%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_digital_output__description.c.o[0m
+[2.528s] [  7%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_analog_output__functions.c.o[0m
+[2.528s] [  7%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_analog_output__description.c.o[0m
+[2.528s] [  8%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_digital_output__functions.c.o[0m
+[2.529s] [  9%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_digital_output__type_support.c.o[0m
+[2.529s] [ 10%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/trigger__description.c.o[0m
+[2.529s] [ 11%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/trigger__functions.c.o[0m
+[2.529s] [ 11%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/set_analog_output__type_support.c.o[0m
+[2.568s] [ 13%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/encoder_decimated_speed__description.c.o[0m
+[2.568s] [ 13%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/srv/detail/trigger__type_support.c.o[0m
+[2.580s] [ 14%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/encoder_decimated_speed__functions.c.o[0m
+[2.580s] [ 15%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support.c.o[0m
+[2.581s] [ 17%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_command__description.c.o[0m
+[2.605s] [ 18%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_command__functions.c.o[0m
+[2.605s] [ 20%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_config__description.c.o[0m
+[2.605s] [ 20%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_command__type_support.c.o[0m
+[2.607s] [ 21%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_config__functions.c.o[0m
+[2.607s] [ 22%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_config__type_support.c.o[0m
+[2.608s] [ 23%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_state__description.c.o[0m
+[2.621s] [ 24%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_state__functions.c.o[0m
+[2.630s] [ 25%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_c.dir/rosidl_generator_c/phidgets_msgs/msg/detail/stepper_state__type_support.c.o[0m
+[2.657s] [ 26%] [32m[1mLinking C shared library libphidgets_msgs__rosidl_generator_c.so[0m
+[2.684s] [ 26%] Built target phidgets_msgs__rosidl_generator_c
+[2.692s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.692s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.694s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.694s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.694s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.694s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.022s] [ 36%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/srv/set_digital_output__type_support.cpp.o[0m
+[3.022s] [ 36%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/srv/set_analog_output__type_support.cpp.o[0m
+[3.022s] [ 36%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/srv/trigger__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/msg/stepper_config__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/msg/encoder_decimated_speed__type_support.cpp.o[0m
+[3.076s] [ 39%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/msg/stepper_command__type_support.cpp.o[0m
+[3.115s] [ 40%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phidgets_msgs/msg/stepper_state__type_support.cpp.o[0m
+[3.150s] [ 41%] [32m[1mLinking CXX shared library libphidgets_msgs__rosidl_typesupport_c.so[0m
+[3.177s] [ 42%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/srv/detail/set_analog_output__type_support.c.o[0m
+[3.178s] [ 44%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/srv/detail/set_digital_output__type_support.c.o[0m
+[3.178s] [ 43%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/srv/detail/trigger__type_support.c.o[0m
+[3.182s] [ 44%] Built target phidgets_msgs__rosidl_typesupport_c
+[3.192s] [ 45%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support.c.o[0m
+[3.225s] [ 47%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/msg/detail/stepper_config__type_support.c.o[0m
+[3.225s] [ 47%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/msg/detail/stepper_command__type_support.c.o[0m
+[3.226s] [ 48%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phidgets_msgs/msg/detail/stepper_state__type_support.c.o[0m
+[3.258s] [ 50%] [32m[1mLinking C shared library libphidgets_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.283s] [ 50%] Built target phidgets_msgs__rosidl_typesupport_introspection_c
+[3.298s] [ 55%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/srv/set_digital_output__type_support.cpp.o[0m
+[3.298s] [ 55%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/msg/stepper_command__type_support.cpp.o[0m
+[3.298s] [ 55%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/srv/set_analog_output__type_support.cpp.o[0m
+[3.298s] [ 55%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/msg/encoder_decimated_speed__type_support.cpp.o[0m
+[3.298s] [ 55%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/srv/trigger__type_support.cpp.o[0m
+[3.486s] [ 56%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/srv/detail/set_analog_output__type_support.cpp.o[0m
+[3.622s] [ 57%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/srv/detail/set_digital_output__type_support.cpp.o[0m
+[3.642s] [ 58%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/srv/detail/trigger__type_support.cpp.o[0m
+[3.712s] [ 60%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/msg/stepper_config__type_support.cpp.o[0m
+[3.713s] [ 61%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/msg/detail/stepper_command__type_support.cpp.o[0m
+[3.714s] [ 61%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support.cpp.o[0m
+[3.773s] [ 62%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/srv/detail/dds_fastrtps/set_analog_output__type_support.cpp.o[0m
+[3.830s] [ 63%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/srv/detail/set_analog_output__type_support_c.cpp.o[0m
+[3.939s] [ 64%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phidgets_msgs/msg/stepper_state__type_support.cpp.o[0m
+[4.038s] [ 65%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/srv/detail/dds_fastrtps/set_digital_output__type_support.cpp.o[0m
+[4.046s] [ 67%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/srv/detail/dds_fastrtps/trigger__type_support.cpp.o[0m
+[4.066s] [ 68%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/msg/detail/dds_fastrtps/encoder_decimated_speed__type_support.cpp.o[0m
+[4.083s] [ 69%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/msg/detail/dds_fastrtps/stepper_command__type_support.cpp.o[0m
+[4.097s] [ 70%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/msg/detail/stepper_config__type_support.cpp.o[0m
+[4.270s] [ 71%] [32m[1mLinking CXX shared library libphidgets_msgs__rosidl_typesupport_cpp.so[0m
+[4.368s] [ 71%] Built target phidgets_msgs__rosidl_typesupport_cpp
+[4.377s] [ 72%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/msg/detail/dds_fastrtps/stepper_config__type_support.cpp.o[0m
+[4.384s] [ 73%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/srv/detail/set_digital_output__type_support_c.cpp.o[0m
+[4.447s] [ 74%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/srv/detail/trigger__type_support_c.cpp.o[0m
+[4.455s] [ 75%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phidgets_msgs/msg/detail/stepper_state__type_support.cpp.o[0m
+[4.562s] [ 76%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support_c.cpp.o[0m
+[4.590s] [ 77%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/msg/detail/stepper_command__type_support_c.cpp.o[0m
+[4.713s] [ 78%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/msg/detail/stepper_config__type_support_c.cpp.o[0m
+[4.752s] [ 79%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phidgets_msgs/msg/detail/stepper_state__type_support_c.cpp.o[0m
+[4.816s] [ 80%] [32m[1mLinking CXX shared library libphidgets_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.904s] [ 81%] [32mBuilding CXX object CMakeFiles/phidgets_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phidgets_msgs/msg/detail/dds_fastrtps/stepper_state__type_support.cpp.o[0m
+[4.913s] [ 81%] Built target phidgets_msgs__rosidl_typesupport_introspection_cpp
+[5.156s] [ 82%] [32m[1mLinking CXX shared library libphidgets_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.206s] [ 82%] Built target phidgets_msgs__rosidl_typesupport_fastrtps_c
+[5.268s] [ 84%] [32m[1mLinking CXX shared library libphidgets_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.318s] [ 84%] Built target phidgets_msgs__rosidl_typesupport_fastrtps_cpp
+[5.330s] [ 84%] Built target phidgets_msgs
+[5.343s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.039s] [ 85%] Built target phidgets_msgs__py
+[6.054s] [ 86%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/srv/_trigger_s.c.o[0m
+[6.055s] [ 87%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/srv/_set_analog_output_s.c.o[0m
+[6.055s] [ 88%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/srv/_set_digital_output_s.c.o[0m
+[6.055s] [ 89%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/msg/_encoder_decimated_speed_s.c.o[0m
+[6.055s] [ 90%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/msg/_stepper_command_s.c.o[0m
+[6.055s] [ 91%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/msg/_stepper_config_s.c.o[0m
+[6.055s] [ 92%] [32mBuilding C object CMakeFiles/phidgets_msgs__rosidl_generator_py.dir/rosidl_generator_py/phidgets_msgs/msg/_stepper_state_s.c.o[0m
+[6.203s] [ 93%] [32m[1mLinking C shared library libphidgets_msgs__rosidl_generator_py.so[0m
+[6.239s] [ 93%] Built target phidgets_msgs__rosidl_generator_py
+[6.260s] [ 95%] [32mBuilding C object CMakeFiles/phidgets_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.260s] [ 95%] [32mBuilding C object CMakeFiles/phidgets_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.260s] [ 96%] [32mBuilding C object CMakeFiles/phidgets_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.362s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_c.so[0m
+[6.362s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.362s] [100%] [32m[1mLinking C shared module rosidl_generator_py/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.382s] [100%] Built target phidgets_msgs_s__rosidl_typesupport_c
+[6.383s] [100%] Built target phidgets_msgs_s__rosidl_typesupport_introspection_c
+[6.383s] [100%] Built target phidgets_msgs_s__rosidl_typesupport_fastrtps_c
+[6.391s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pioneer1/Documents/Rover/build/phidgets_msgs -- -j8 -l8
+[6.397s] Invoking command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_msgs
+[6.402s] -- Install configuration: ""
+[6.402s] -- Execute custom install script
+[6.403s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/ament_index/resource_index/rosidl_interfaces/phidgets_msgs
+[6.408s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetAnalogOutput.json
+[6.414s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetDigitalOutput.json
+[6.419s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/Trigger.json
+[6.425s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/EncoderDecimatedSpeed.json
+[6.431s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperCommand.json
+[6.436s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperConfig.json
+[6.442s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperState.json
+[6.448s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__functions.h
+[6.454s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__struct.h
+[6.459s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support.h
+[6.464s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__functions.h
+[6.469s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__struct.h
+[6.474s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__type_support.h
+[6.479s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__functions.h
+[6.484s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__struct.h
+[6.489s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__type_support.h
+[6.494s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__functions.h
+[6.499s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__struct.h
+[6.504s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__type_support.h
+[6.509s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/encoder_decimated_speed.h
+[6.513s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.518s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_command.h
+[6.523s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_config.h
+[6.528s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_state.h
+[6.533s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__functions.h
+[6.538s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__struct.h
+[6.543s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__type_support.h
+[6.548s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__functions.h
+[6.553s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__struct.h
+[6.557s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__type_support.h
+[6.562s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__functions.h
+[6.567s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__struct.h
+[6.573s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__type_support.h
+[6.578s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/set_analog_output.h
+[6.583s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/set_digital_output.h
+[6.588s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/trigger.h
+[6.593s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/library_path.sh
+[6.597s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/library_path.dsv
+[6.602s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__rosidl_typesupport_fastrtps_c.h
+[6.607s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__rosidl_typesupport_fastrtps_c.h
+[6.612s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__rosidl_typesupport_fastrtps_c.h
+[6.618s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__rosidl_typesupport_fastrtps_c.h
+[6.623s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.628s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__rosidl_typesupport_fastrtps_c.h
+[6.633s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__rosidl_typesupport_fastrtps_c.h
+[6.638s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[6.643s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__rosidl_typesupport_introspection_c.h
+[6.648s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__rosidl_typesupport_introspection_c.h
+[6.653s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__rosidl_typesupport_introspection_c.h
+[6.659s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__rosidl_typesupport_introspection_c.h
+[6.664s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.670s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__rosidl_typesupport_introspection_c.h
+[6.675s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__rosidl_typesupport_introspection_c.h
+[6.681s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[6.686s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__builder.hpp
+[6.691s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__struct.hpp
+[6.696s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__traits.hpp
+[6.701s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__type_support.hpp
+[6.706s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__builder.hpp
+[6.711s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__struct.hpp
+[6.717s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__traits.hpp
+[6.723s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__type_support.hpp
+[6.729s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__builder.hpp
+[6.734s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__struct.hpp
+[6.739s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__traits.hpp
+[6.744s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__type_support.hpp
+[6.750s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__builder.hpp
+[6.754s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__struct.hpp
+[6.759s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__traits.hpp
+[6.764s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__type_support.hpp
+[6.769s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/encoder_decimated_speed.hpp
+[6.774s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.778s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_command.hpp
+[6.783s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_config.hpp
+[6.789s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/stepper_state.hpp
+[6.794s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__builder.hpp
+[6.799s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__struct.hpp
+[6.804s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__traits.hpp
+[6.809s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__type_support.hpp
+[6.814s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__builder.hpp
+[6.819s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__struct.hpp
+[6.824s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__traits.hpp
+[6.829s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__type_support.hpp
+[6.835s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__builder.hpp
+[6.841s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__struct.hpp
+[6.847s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__traits.hpp
+[6.852s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__type_support.hpp
+[6.857s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/set_analog_output.hpp
+[6.861s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/set_digital_output.hpp
+[6.866s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/trigger.hpp
+[6.872s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[6.877s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.882s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__rosidl_typesupport_fastrtps_cpp.hpp
+[6.888s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.893s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.899s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__rosidl_typesupport_fastrtps_cpp.hpp
+[6.904s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__rosidl_typesupport_fastrtps_cpp.hpp
+[6.909s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[6.916s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/encoder_decimated_speed__rosidl_typesupport_introspection_cpp.hpp
+[6.922s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_command__rosidl_typesupport_introspection_cpp.hpp
+[6.927s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_config__rosidl_typesupport_introspection_cpp.hpp
+[6.932s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/msg/detail/stepper_state__rosidl_typesupport_introspection_cpp.hpp
+[6.937s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_analog_output__rosidl_typesupport_introspection_cpp.hpp
+[6.942s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/set_digital_output__rosidl_typesupport_introspection_cpp.hpp
+[6.947s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/include/phidgets_msgs/phidgets_msgs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[6.952s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/pythonpath.sh
+[6.957s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/pythonpath.dsv
+[6.962s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs-2.4.0-py3.12.egg-info/PKG-INFO
+[6.967s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs-2.4.0-py3.12.egg-info/SOURCES.txt
+[6.972s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs-2.4.0-py3.12.egg-info/dependency_links.txt
+[6.977s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs-2.4.0-py3.12.egg-info/top_level.txt
+[6.982s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/__init__.py
+[6.987s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_c.c
+[6.992s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.997s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.002s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/__init__.py
+[7.008s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_encoder_decimated_speed.py
+[7.013s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_encoder_decimated_speed_s.c
+[7.018s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_command.py
+[7.024s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_command_s.c
+[7.030s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_config.py
+[7.035s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_config_s.c
+[7.040s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_state.py
+[7.046s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_state_s.c
+[7.051s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_c.so
+[7.056s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.061s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_introspection_c.so
+[7.066s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/__init__.py
+[7.071s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_analog_output.py
+[7.076s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_analog_output_s.c
+[7.082s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_digital_output.py
+[7.087s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_digital_output_s.c
+[7.092s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_trigger.py
+[7.097s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_trigger_s.c
+[7.102s] -- Up-to-date symlink: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.102s] -- Up-to-date symlink: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_introspection_c.so
+[7.103s] -- Up-to-date symlink: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/phidgets_msgs_s__rosidl_typesupport_c.so
+[7.103s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetAnalogOutput.idl
+[7.108s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetDigitalOutput.idl
+[7.113s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/Trigger.idl
+[7.118s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/EncoderDecimatedSpeed.idl
+[7.123s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperCommand.idl
+[7.129s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperConfig.idl
+[7.134s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperState.idl
+[7.140s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetAnalogOutput.srv
+[7.145s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/SetDigitalOutput.srv
+[7.151s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/srv/Trigger.srv
+[7.156s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/EncoderDecimatedSpeed.msg
+[7.161s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperCommand.msg
+[7.166s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperConfig.msg
+[7.172s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/msg/StepperState.msg
+[7.179s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/ament_index/resource_index/package_run_dependencies/phidgets_msgs
+[7.186s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/ament_index/resource_index/parent_prefix_path/phidgets_msgs
+[7.191s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/ament_prefix_path.sh
+[7.197s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/ament_prefix_path.dsv
+[7.202s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/path.sh
+[7.207s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/environment/path.dsv
+[7.212s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/local_setup.bash
+[7.217s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/local_setup.sh
+[7.223s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/local_setup.zsh
+[7.228s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/local_setup.dsv
+[7.234s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.dsv
+[7.240s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/ament_index/resource_index/packages/phidgets_msgs
+[7.247s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/rosidl_cmake-extras.cmake
+[7.252s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.257s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.263s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.268s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.273s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.278s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.283s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgsConfig.cmake
+[7.289s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgsConfig-version.cmake
+[7.294s] -- Symlinking: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/package.xml
+[7.299s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_generator_c.so
+[7.300s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_generator_c.so" to ""
+[7.300s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_fastrtps_c.so
+[7.300s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.300s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_introspection_c.so
+[7.300s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.300s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_c.so
+[7.300s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_c.so" to ""
+[7.300s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.301s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.301s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_introspection_cpp.so
+[7.301s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.301s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_cpp.so
+[7.301s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_typesupport_cpp.so" to ""
+[7.335s] Listing '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs'...
+[7.335s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/__init__.py'...
+[7.336s] Listing '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/__init__.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_encoder_decimated_speed.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_command.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_config.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/msg/_stepper_state.py'...
+[7.336s] Listing '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/__init__.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_analog_output.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_set_digital_output.py'...
+[7.336s] Compiling '/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/python3.12/site-packages/phidgets_msgs/srv/_trigger.py'...
+[7.339s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_generator_py.so
+[7.340s] -- Set non-toolchain portion of runtime path of "/home/pioneer1/Documents/Rover/install/phidgets_msgs/lib/libphidgets_msgs__rosidl_generator_py.so" to ""
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_generator_cExport.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_cExport.cmake
+[7.340s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_generator_cppExport.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_cppExport.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/phidgets_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_generator_pyExport.cmake
+[7.341s] -- Installing: /home/pioneer1/Documents/Rover/install/phidgets_msgs/share/phidgets_msgs/cmake/export_phidgets_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.344s] Invoked command in '/home/pioneer1/Documents/Rover/build/phidgets_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pioneer1/Documents/Rover/build/phidgets_msgs

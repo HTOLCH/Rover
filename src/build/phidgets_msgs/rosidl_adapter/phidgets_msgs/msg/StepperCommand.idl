@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from phidgets_msgs/msg/StepperCommand.msg
+// generated code does not contain a copyright notice
+
+
+module phidgets_msgs {
+  module msg {
+    module StepperCommand_Constants {
+      const uint8 CONTROL_MODE_DISENGAGED = 255;
+      const uint8 CONTROL_MODE_STEP = 0;
+      const uint8 CONTROL_MODE_RUN = 1;
+      const uint8 CONTROL_MODE_STOP = 2;
+    };
+    struct StepperCommand {
+      uint8 mode;
+
+      double target;
+
+      double velocity;
+    };
+  };
+};

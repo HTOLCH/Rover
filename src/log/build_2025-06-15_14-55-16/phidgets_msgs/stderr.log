@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>
+    from rosidl_generator_py import generate_py
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py", line 23, in <module>
+    from .generate_py_impl import generate_py
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py", line 35, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/__init__.py", line 11, in <module>
+    from .lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 4, in <module>
+    import tempfile
+  File "/usr/lib/python3.12/tempfile.py", line 44, in <module>
+    import shutil as _shutil
+  File "/usr/lib/python3.12/shutil.py", line 1396, in <module>
+    _ntuple_diskusage = collections.namedtuple('usage', 'total used free')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/collections/__init__.py", line 424, in namedtuple
+    field_names = tuple(map(_sys.intern, field_names))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+gmake[2]: *** [/home/pioneer1/Documents/Rover/src/build/phidgets_msgs/phidgets_msgs__py/CMakeFiles/phidgets_msgs__py.dir/build.make:143: rosidl_generator_py/phidgets_msgs/_phidgets_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:621: phidgets_msgs__py/CMakeFiles/phidgets_msgs__py.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

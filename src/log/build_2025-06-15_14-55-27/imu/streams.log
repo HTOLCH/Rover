@@ -1,0 +1,19 @@
+[0.444s] Invoking command in '/home/pioneer1/Documents/Rover/src/imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pioneer1/Documents/Rover/src/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pioneer1/Documents/Rover/src/install/imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/imu build --build-base /home/pioneer1/Documents/Rover/src/build/imu/build install --record /home/pioneer1/Documents/Rover/src/build/imu/install.log --single-version-externally-managed install_data
+[0.590s] running egg_info
+[0.600s] writing ../build/imu/imu.egg-info/PKG-INFO
+[0.600s] writing dependency_links to ../build/imu/imu.egg-info/dependency_links.txt
+[0.600s] writing requirements to ../build/imu/imu.egg-info/requires.txt
+[0.600s] writing top-level names to ../build/imu/imu.egg-info/top_level.txt
+[0.620s] reading manifest file '../build/imu/imu.egg-info/SOURCES.txt'
+[0.620s] writing manifest file '../build/imu/imu.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.620s] running install
+[0.625s] running install_lib
+[0.635s] running install_data
+[0.635s] running install_egg_info
+[0.645s] removing '/home/pioneer1/Documents/Rover/src/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info' (and everything under it)
+[0.646s] Copying ../build/imu/imu.egg-info to /home/pioneer1/Documents/Rover/src/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info
+[0.646s] running install_scripts
+[0.712s] writing list of installed files to '/home/pioneer1/Documents/Rover/src/build/imu/install.log'
+[0.729s] Invoked command in '/home/pioneer1/Documents/Rover/src/imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pioneer1/Documents/Rover/src/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pioneer1/Documents/Rover/src/install/imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/imu build --build-base /home/pioneer1/Documents/Rover/src/build/imu/build install --record /home/pioneer1/Documents/Rover/src/build/imu/install.log --single-version-externally-managed install_data

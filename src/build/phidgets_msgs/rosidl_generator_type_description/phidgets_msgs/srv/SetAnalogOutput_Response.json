@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "phidgets_msgs/srv/SetAnalogOutput_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "phidgets_msgs/srv/SetAnalogOutput_Response",
+      "hash_string": "RIHS01_2c50d016523844579e68a6242751e17ba7218a71489850a002c31104ed5dc3e9"
+    }
+  ]
+}

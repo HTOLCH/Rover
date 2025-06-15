@@ -1,0 +1,6 @@
+setup.py
+phidgets_msgs/__init__.py
+phidgets_msgs.egg-info/PKG-INFO
+phidgets_msgs.egg-info/SOURCES.txt
+phidgets_msgs.egg-info/dependency_links.txt
+phidgets_msgs.egg-info/top_level.txt
