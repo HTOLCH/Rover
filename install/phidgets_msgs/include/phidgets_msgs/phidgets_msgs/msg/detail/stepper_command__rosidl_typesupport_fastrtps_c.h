@@ -1,1 +1,0 @@
-/home/pioneer1/Documents/Rover/build/phidgets_msgs/rosidl_typesupport_fastrtps_c/phidgets_msgs/msg/detail/stepper_command__rosidl_typesupport_fastrtps_c.h

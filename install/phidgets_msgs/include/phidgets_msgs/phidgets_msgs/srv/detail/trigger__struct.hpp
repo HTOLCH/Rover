@@ -1,1 +1,0 @@
-/home/pioneer1/Documents/Rover/build/phidgets_msgs/rosidl_generator_cpp/phidgets_msgs/srv/detail/trigger__struct.hpp

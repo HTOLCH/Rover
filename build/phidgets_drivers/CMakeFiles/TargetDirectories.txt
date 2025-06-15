@@ -1,9 +1,0 @@
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/uninstall.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/phidgets_drivers_uninstall.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/test.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/edit_cache.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/rebuild_cache.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/list_install_components.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/install.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/install/local.dir
-/home/pioneer1/Documents/Rover/build/phidgets_drivers/CMakeFiles/install/strip.dir

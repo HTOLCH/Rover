@@ -1,1 +1,0 @@
-/home/pioneer1/Documents/Rover/build/libphidget22/ament_cmake_core/libphidget22Config-version.cmake
